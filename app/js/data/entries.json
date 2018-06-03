@@ -12,6 +12,17 @@
       ]
     },
     {
+      "id": "wicker-chest",
+      "title": "Wicker Chest",
+      "claimed": false,
+      "content": "<p></p>",
+      "notes": "",
+      "tags": [
+        "Furniture",
+        "Livingroom"
+      ]
+    },
+    {
       "id": "couch",
       "title": "Couch & Ottoman",
       "claimed": false,

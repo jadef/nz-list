@@ -72,12 +72,12 @@ class Logo extends React.Component {
 
       pacific.animate({
         opacity:"0",
-        transform: "t0, 20, s3"
-      }, 100);
+        transform: "t0, -300, s5"
+      }, 400);
 
       timer = setTimeout(function () {
         banner.animate({
-          transform: "t0, 20"
+          transform: "t0, 10"
         }, speed, transition);
       }, 200);
     }
@@ -88,8 +88,8 @@ class Logo extends React.Component {
 
       pacific.animate({
         opacity:"1",
-        transform: "t0, 40, s1"
-      }, 100);
+        transform: "t0, 70, s1"
+      }, 400);
 
       timer = setTimeout(function () {
         banner.animate({
