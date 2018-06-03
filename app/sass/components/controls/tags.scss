@@ -94,7 +94,6 @@
     ul {
       align-items: stretch;
       background: transparent;
-      border-left: 1px solid $c-primary;
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
@@ -103,16 +102,20 @@
       padding: 5px 0;
 
       li {
+        border-left: 1px solid $c-primary;
         display: flex;
         font-size: 14px;
         height: auto;
         justify-content: flex-start;
-        margin-bottom: 1px;
         opacity: 1;
         padding: 0 15px;
 
         &.active {
           height: auto;
+        }
+
+        &.seperator {
+          border-left: 0;
         }
       }
     }

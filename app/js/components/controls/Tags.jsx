@@ -84,11 +84,19 @@ class Tag extends React.Component {
   }
 
   render() {
+    // Build Seperators
+    if (this.props.tag.startsWith('_seperator')) {
+      return (
+        <li className="seperator"></li>
+      );
+    }
+
     return (
       <li
         className={this.state.active ? 'active': null}
         onClick={this.handleClick}
-      >{this.props.tag}</li>
+      >{this.props.tag}
+      </li>
     );
   }
 }
