@@ -3,6 +3,7 @@
 // ----- Tags
 .btns.tags {
   span {
+    background: rgba($c-background, 0.75);
     border: 1px solid $c-primary;
     border-radius: 4px;
     color: $c-primary;
@@ -21,7 +22,9 @@
   }
 
   @include breakpoint(small) {
+    position: absolute;
+    right: 10px;
     text-align: right;
-    width: 30%;
+    top: 28px;
   }
 }
