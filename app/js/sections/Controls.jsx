@@ -12,13 +12,10 @@ add just one scroll event.
       - *Controls*
         - ControlsTags
           - Tag
-        - ControlsLetters
-          - Letter
 */
 
 // -- Components
 import ControlsTags from '../components/controls/Tags';
-import ControlsLetters from '../components/controls/Letters';
 
 class Controls extends React.Component {
   constructor(props) {
@@ -50,7 +47,6 @@ class Controls extends React.Component {
     return (
       <div className="control-wrapper" style={{top: this.state.topHeight + "px", height: "calc(100vh - " + this.state.topHeight + "px"}}>
         <ControlsTags addTag={this.passActiveTag} />
-        <ControlsLetters />
       </div>
     );
   }

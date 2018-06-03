@@ -15,7 +15,6 @@ import { entries } from '../data/entries.json'
     - *Main*
       - Controls
         - ControlsTags
-        - ControlsLetters
       - Entries
         - Entry
 */
