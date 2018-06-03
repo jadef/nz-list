@@ -1,0 +1,30 @@
+@import '../variables/variables';
+
+// ----- Footer
+footer {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: $gutter auto 0 auto;
+  max-width: $xlarge;
+
+  .footer-content {
+    min-height: 72px;
+    padding: 20px;
+    text-align: center;
+
+    @include breakpoint(small) {
+      @include columns(8);
+      @include columns(4, margin-left);
+    }
+
+    @include breakpoint(medium) {
+      @include columns(9);
+      @include columns(3, margin-left);
+    }
+
+    @include breakpoint(xlarge) {
+      margin-left: 370px;
+    }
+  }
+}

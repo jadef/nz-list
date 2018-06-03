@@ -1,0 +1,90 @@
+@import '../../variables/variables';
+
+// ----- Letters
+.controls.letters {
+  @include breakpoint(small) {
+    background-color: $c-light;
+    box-shadow: 0 2px 6px 0 rgba($c-dark, 0.15);
+    padding: $gutter 0 10px 0;
+
+    .letter-wrapper {
+      position: relative;
+      width: 100%;
+    }
+
+    ul {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      font-size: 12px;
+      height: 100%;
+      justify-content: space-between;
+      list-style: none;
+      margin: 0;
+      text-align: center;
+      width: 100%;
+
+      li {
+        cursor: pointer;
+        display: flex;
+        padding: 0;
+        flex-grow: 1;
+
+        &.active {
+          font-weight: bold;
+        }
+
+        &.none {
+          cursor: default;
+          opacity: 0.25;
+
+          a:hover,
+          a:focus {
+            color: $c-dark;
+            cursor: default;
+          }
+        }
+      }
+
+      a {
+        color: $c-dark;
+        display: block;
+        width: 100%;
+      }
+
+      a:hover,
+      a:focus {
+        color: $c-accent;
+      }
+    }
+
+    .handle {
+      height: 20px;
+      margin-top: -15px;
+      position: absolute;
+      top: 0;
+      transition: top 0.2s ease;
+      width: 100%;
+
+      svg {
+        height: 20px;
+        position: absolute;
+        right: -15px;
+        top: 4px;
+        width: 20px;
+      }
+
+      &::before {
+        border-top: 1px solid $c-primary;
+        content: '';
+        position: absolute;
+        top: 50%;
+        width: 100%;
+      }
+    }
+  }
+
+  @include breakpoint(medium) {
+    padding-left: 0;
+  }
+}

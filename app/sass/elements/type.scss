@@ -1,0 +1,108 @@
+// ----- Base styles
+html {
+  color: $c-dark;
+  font-family: 'Nunito Sans', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: $s-base;
+  font-weight: 400;
+  line-height: 1.4em;
+  margin: 0;
+  min-height: 100%;
+  padding: 0;
+  position: relative;
+}
+
+body {
+  background-color: $c-background;
+  height: 100%;
+
+  &::after {
+    background: $c-gr-light;
+    // background: transparent url('../images/background-b.jpg') no-repeat top center;
+    background-size: cover;
+    content: '';
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+  }
+}
+
+// hr {
+//   border: 0;
+//   border-top: 1px solid $c-gray-light;
+//   clear: both;
+//   display: block;
+//   height: 1px;
+//   margin: 4% 0;
+//   padding: 0;
+// }
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Cabin', 'Helvetica Neue', Helvetica, sans-serif;
+  font-weight: 600;
+  line-height: 1.1em;
+}
+
+h2 {
+  color: $c-accent;
+  font-size: 30px;
+  padding-bottom: 0.5em;
+
+  @include breakpoint(small) {
+    font-size: 48px;
+  }
+}
+
+h3 {
+  font-size: 24px;
+  letter-spacing: 0.02em;
+}
+
+ul,
+ol {
+  list-style-position: outside;
+  margin: 0 0 0.5em 1.5em;
+
+  li {
+    padding-bottom: 0.5em;
+  }
+}
+
+p {
+  padding-bottom: 1em;
+}
+
+strong {
+  font-weight: bold;
+}
+
+// video {
+//   height: auto !important;
+//   width: 100% !important;
+// }
+
+// audio,
+// canvas,
+// img,
+// video {
+//   vertical-align: middle;
+// }
+
+a:link,
+a:active,
+a:visited {
+  color: $c-primary;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+a:hover,
+a:focus {
+  color: $c-accent;
+  outline: 0;
+}

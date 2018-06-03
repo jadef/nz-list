@@ -1,0 +1,983 @@
+{
+  "entries": [
+    {
+      "id": "ghost",
+      "title": "Ghost",
+      "link": "//ghost.org/",
+      "content": "<p>Remember when WordPress was a blog platform? That's what Ghost is, just in modern times. It's not trying to be all the things, but just the linear published content... aka blog.</p><p>The technology stack is interesting though, it's ember on node. So handlebar templates are a big part of the theming.</p>",
+      "rank": 3,
+      "notes": "",
+      "tags": [
+        "CMS",
+        "JavaScript",
+        "Node"
+      ],
+      "stamp": "2017/05/26"
+    },
+    {
+      "id": "meteor",
+      "title": "Meteor",
+      "link": "//www.meteor.com/",
+      "content": "<p>I haven't explored yet, but my perception is that it's focused on simplifying App building aspects. Very similar to React's native, but more generalized to other aspects like Mongo integration or Angular instead of React.</p>",
+      "rank": 3,
+      "notes": "",
+      "tags": [
+        "JavaScript",
+        "Library",
+        "Mobile",
+        "Single Page"
+      ],
+      "stamp": "2017/05/26"
+    },
+    {
+      "id": "twig",
+      "title": "Twig",
+      "link": "//twig.sensiolabs.org/",
+      "content": "<p>I don't know much about Twig, but it's templating for PHP, so that checks out. PHP with curly braces ala mustache.</p>",
+      "rank": 0,
+      "notes": "",
+      "tags": [
+        "PHP",
+        "Templating"
+      ],
+      "stamp": "2017/05/22"
+    },
+    {
+      "id": "craft",
+      "title": "Craft",
+      "link": "//craftcms.com/",
+      "content": "<p>At the time of first writing this, Craft is the up and coming CMS. I haven't worked with it yet, but I'd be interested to see it in action.</p>",
+      "rank": 3,
+      "notes": "",
+      "tags": [
+        "CMS",
+        "PHP"
+      ],
+      "stamp": "2017/05/22"
+    },
+    {
+      "id": "docker",
+      "title": "Docker",
+      "link": "//www.docker.com/",
+      "content": "<p>\"Packaged\" containers for getting an environment set up. Mostly for local dev in my case, but also used for servers.</p><p>The idea is nice, and I could see how it's just as approachable as VMs (if not more so). But my one experience with it at work was a little cumbersome and it felt very intensive for my machine. Not sure it's something I'd play with on my own.</p>",
+      "rank": 2,
+      "notes": "",
+      "tags": [
+        "Manager"
+      ],
+      "stamp": "2017/05/22"
+    },
+    {
+      "id": "drupal",
+      "title": "Drupal",
+      "link": "//www.drupal.org/",
+      "content": "<p>It's been years, but I've never cared to jump into the Drupal world. Would if I had to, but not even on my radar these days.</p>",
+      "rank": 1,
+      "notes": "",
+      "tags": [
+        "CMS",
+        "PHP"
+      ],
+      "stamp": "2017/05/18"
+    },
+    {
+      "id": "guard",
+      "title": "Guard",
+      "link": "//guardgem.org/",
+      "content": "<p>Ruby specific task runner. The old man of the group, but was my original go to into the task runner world.</p><p>Don't think it's applicable anymore.</p>",
+      "rank": 2,
+      "notes": "",
+      "tags": [
+        "Automation",
+        "Preprocessor",
+        "Ruby"
+      ],
+      "stamp": "2017/05/18"
+    },
+    {
+      "id": "knockout",
+      "title": "Knockout",
+      "link": "//knockoutjs.com/",
+      "content": "<p>Yet another JavaScript framework, seems something like between react and jQuery, but I've been resistent to even read about it.</p><p>Wouldn't care one bit about it, except that it's part of Magento 2, I don't understand why they make those kind of decisions.</p>",
+      "rank": 1,
+      "notes": "",
+      "tags": [
+        "Framework",
+        "JavaScript"
+      ],
+      "stamp": "2017/05/18"
+    },
+    {
+      "id": "markdown",
+      "title": "Markdown",
+      "link": "//commonmark.org/",
+      "content": "<p>It's actually hard to poinpoint markdown as a singular language with a source of authority. The <a href=\"http://daringfireball.net/projects/markdown/\">Daring Fireball version</a> is the first, but probably out of date at this point. I'm leaning on <a href=\"http://commonmark.org/\">CommonMark</a> as the real thing. <a href=\"https://guides.github.com/features/mastering-markdown/\">Gihub</a> is also pretty solid on this.</p>",
+      "rank": 3,
+      "notes": "",
+      "tags": [
+        "Abstraction"
+      ],
+      "stamp": "2017/05/18"
+    },
+    {
+      "id": "selenium",
+      "title": "Selenium",
+      "link": "//www.seleniumhq.org/",
+      "content": "<p>Automate browser(s) to do your bidding. Essentially this is part of a lot of test suites to mimic human behavior of stepping through a test.</p>",
+      "rank": 2,
+      "notes": "",
+      "tags": [
+        "Automation",
+        "Testing"
+      ],
+      "stamp": "2017/05/18"
+    },
+    {
+      "id": "svg",
+      "title": "SVG",
+      "link": "//www.w3.org/Graphics/SVG/",
+      "content": "<p>I don't have JPG, or GIF in here, so wy SVG? Not just because it's \"newer\", but because of it's potential. The fact that it's actually just code (based on xml, but has some specifics) means that it's manipulatable, which is huge for scaling, coloring, animating, etc.</p>",
+      "rank": 4,
+      "notes": "",
+      "tags": [
+        "Animation"
+      ],
+      "stamp": "2017/05/18"
+    },
+    {
+      "id": "xml",
+      "title": "XML",
+      "link": "//www.w3.org/TR/REC-xml/",
+      "content": "<p>A strange cousin to HTML, it's actually way more robust than I give it credit for. But really, I think of it kind of like JSON is to JS, in that it should really just be an organizational tool for specific content that you want to retrieve from other sources (could be php, JS, etc).</p>",
+      "rank": 2,
+      "notes": "",
+      "tags": [
+        "Abstraction"
+      ],
+      "stamp": "2017/05/18"
+    },
+    {
+      "id": "wraith",
+      "title": "Wraith",
+      "link": "//bbc-news.github.io/wraith/",
+      "content": "<p>An interesting mix of automation with visualization. It takes screenshots and compares differences.</p><p>The theory is to weave it into testing and deploy processes so that you know only the thing you wanted to change on the front-end has changed in your development.</p><p>I really like the idea and was interesting seeing it in action, but have failed to see it used properly.</p>",
+      "rank":3,
+      "notes": "",
+      "tags": [
+        "Automation",
+        "Ruby",
+        "Testing"
+      ],
+      "stamp": "2017/05/18"
+    },
+    {
+      "id": "swift",
+      "title": "Swift",
+      "link": "//swift.org/",
+      "content": "<p>Apple's newish replacement for C-based languages. I believe it's focused mostly toward app programming, but really, it's a software language that could be used for all kinds of things.</p>",
+      "rank": 2,
+      "notes": "",
+      "tags": [
+        "Mobile"
+      ],
+      "stamp": "2017/05/17"
+    },
+    {
+      "id": "webcomponents",
+      "title": "Web Components",
+      "link": "//www.webcomponents.org",
+      "content": "<p>This is actually an interesting new fronteir for front-end html processes. It breaks elements of the page down to a component, just like JavaScript is doing all the time, but this is more on the DOM/HTML level, so that you build a reuable component and then the include is super simple... That said, the barrier isn't actually super simple, it still involves JS setup, bower including, and previously built element libraries (which I guess is a selling point, but a barier for wanting to use your own processes).</p>",
+      "rank": 3,
+      "notes": "",
+      "tags": [
+        "Library",
+        "Templating"
+      ],
+      "stamp": "2017/05/17"
+    },
+    {
+      "id": "watchman",
+      "title": "Watchman",
+      "link": "//facebook.github.io/watchman/",
+      "content": "<p>No frills file watching. That's all it does, you tell it to watch certain files and then do something, usually a seperate process (could be something like postCSS processes).</p><p>It's another aspect of task runners that have been broken away, so yes, there are other ways to do this, but might be a cleaner way to implement watching.</p>",
+      "rank": 3,
+      "notes": "",
+      "tags": [
+        "Automation",
+        "Node",
+        "Preprocessor"
+      ],
+      "stamp": "2017/05/17"
+    },
+    {
+      "id": "native",
+      "title": "React Native",
+      "link": "//facebook.github.io/react-native/",
+      "content": "<p>Like react? Want to build apps for iOS and Android? Sure, why not.</p><p>A whole other world, this could be an interesting way to cross from the web app to the native app world a little easier.</p>",
+      "rank": 3,
+      "notes": "",
+      "tags": [
+        "JavaScript",
+        "Library",
+        "Mobile",
+        "Node"
+      ],
+      "stamp": "2017/05/17"
+    },
+    {
+      "id": "grunt",
+      "title": "Grunt",
+      "link": "//gruntjs.com/",
+      "content": "<p>A little more mature task runner, it got a little out-shone by Gulp. And now with things like webpack, task runner's scope is narrowing down a bit futher.</p></p>Still has a good place, and depending on the project will still be part of my life, but for personal projects not my go to.</p>",
+      "rank": 3,
+      "notes": "",
+      "tags": [
+        "JavaScript",
+        "Preprocessor"
+      ],
+      "stamp": "2017/05/17"
+    },
+    {
+      "id": "liquid",
+      "title": "Liquid",
+      "link": "//shopify.github.io/liquid/",
+      "content": "<p>Templating language that I stumbled on with Jekyll. If I do anything with Shopify, that's also Liquid.</p><p>If you can use any template language, you can use this one. Just a few differences, but overall a basic layer as you'd expect.</p>",
+      "rank": 2,
+      "notes": "",
+      "tags": [
+        "Ruby",
+        "Templating"
+      ],
+      "stamp": "2017/05/02"
+    },
+    {
+      "id": "jekyll",
+      "title": "Jekyll",
+      "link": "//jekyllrb.com/",
+      "content": "<p>An interesting \"light CMS \" that builds static sites off of your different template/content pages.</p><p>I wouldn't have given it any attention except GitHub pages uses it, and so I got my feet wet with my .io site.</p>",
+      "rank": 2,
+      "notes": "",
+      "tags": [
+        "CMS",
+        "Ruby",
+        "Templating"
+      ],
+      "stamp": "2017/05/02"
+    },
+    {
+      "id": "foundation",
+      "title": "Foundation",
+      "link": "//foundation.zurb.com/",
+      "content": "<p>Foundation and Bootstrap, definitely on the same level, both potentially super useful, but also give me that feeling of loss of control.</p><p>Do like that you can selectively choose your components.</p>",
+      "rank": 3,
+      "notes": "Maybe lean toward Foundation over Bootstrap just a little bit.",
+      "tags": [
+        "CSS",
+        "Framework"
+      ],
+      "stamp": "2017/04/24"
+    },
+    {
+      "id": "webpack",
+      "title": "Web Pack",
+      "link": "//webpack.js.org/",
+      "content": "<p>A little daunting at first, but it can become part of a JS build pretty well. Similar to what Browserify was doing, but way more modularly bundly. It can serve up JS assets, it can compile CSS, it can (propably) handle different templating aspects.</p><p>It can feel like it pretty much negates the need for task runners, but they say they're a little different.</p>",
+      "rank": 4,
+      "notes": "",
+      "tags": [
+        "JavaScript",
+        "Manager",
+        "Node",
+        "Single Page"
+      ],
+      "stamp": "2017/04/24"
+    },
+    {
+      "id": "browsersync",
+      "title": "Browsersync",
+      "link": "//www.browsersync.io/",
+      "content": "<p>Two major reasons to use it:</p><ul><li>One: it syncs browsers, so you can have multiple windows (and devices) open and looking at something all at the same time.</li><li>Two: if you don't have something else doing it, it's a great watcher for hot reloading of styles and such on file save.</li></ul>",
+      "rank": 4,
+      "notes": "",
+      "tags": [
+        "Automation",
+        "Node",
+        "Preprocessor"
+      ],
+      "stamp": "2017/04/24"
+    },
+    {
+      "id": "babel",
+      "title": "Babel",
+      "link": "//babeljs.io/",
+      "content": "<p>Use ES2015 (or whatever the next generation of JavaScript is) even though browser support isn't quite there.</><p>This opens up a lot of new aspects to vanilla JavaScript, though I've started in conjunction with React.</p>",
+      "rank": 4,
+      "notes": "Took some work to get setup, and I'm not sure how to use all of it, but it does make JavaScript a bit better.",
+      "tags": [
+        "Abstraction",
+        "JavaScript",
+        "Preprocessor"
+      ],
+      "stamp": "2017/04/24"
+    },
+    {
+      "id": "cssnano",
+      "title": "cssnano",
+      "link": "//cssnano.co/",
+      "content": "<p>A PostCSS plugin that essentially does Uglification for CSS. Good to use when really locking down a production build.</p>",
+      "rank": 4,
+      "notes": "",
+      "tags": [
+        "Automation",
+        "CSS",
+        "Preprocessor"
+      ],
+      "stamp": "2017/04/24"
+    },
+    {
+      "id": "ava",
+      "title": "Ava",
+      "link": "//github.com/avajs/ava",
+      "content": "<p>JavaScript testing. Still a bit intimidating to really figure out full coverage, but something I should sit down with, and on a javascript project (like react) this would be a good solution.</p><p>Selling point, tests run concurently, so faster suites.</p>",
+      "rank": 2,
+      "notes": "",
+      "tags": [
+        "JavaScript",
+        "Node",
+        "Testing"
+      ],
+      "stamp": "2017/04/24"
+    },
+    {
+      "id": "autoprefixer",
+      "title": "Autoprefixer",
+      "link": "//github.com/postcss/autoprefixer",
+      "content": "<p>A PostCSS plugin that is the backbone of the <a href=\"#postcss\">PostCSS</a> world. It lets you completly forget about vendor prefixes for \"partially supported\" css stuff. Pretty necessary for all projects in my mind.</p>",
+      "rank": 5,
+      "notes": "",
+      "tags": [
+        "Automation",
+        "CSS",
+        "Preprocessor"
+      ],
+      "stamp": "2017/04/24"
+    },
+    {
+      "id": "postcss",
+      "title": "PostCSS",
+      "link": "//postcss.org/",
+      "content": "<p>Preprocessor CSS building has always felt like a semi temporary step in the growth of CSS. This is the next step in that it's not exactly the same as preprocessor builds... but kind of is.</p><p>It's technically just a platform for a bunch of different plugins, so it can be as singular as autoprefixes, or have all kinds of progressive, modular, precss (not sass anymore) stuff going on.</p>",
+      "rank": 4,
+      "notes": "",
+      "tags": [
+        "Automation",
+        "CSS",
+        "Preprocessor"
+      ],
+      "stamp": "2017/04/24"
+    },
+    {
+      "id": "eslint",
+      "title": "ESLint",
+      "link": "//eslint.org/",
+      "content": "<p>Pluggable JS linter, which means I've probably just scratched the surface. But even at its most basic, it's nice to have the reinforcement of good JS.</p><p>Because linting is a little work up front, but then just keeps you on track during dev, I think this is an important part of any build. Plays nice with JSX which is good.</p>",
+      "rank": 4,
+      "notes": "",
+      "tags": [
+        "JavaScript",
+        "Node",
+        "Testing"
+      ],
+      "stamp": "2017/04/24"
+    },
+    {
+      "id": "lodash",
+      "title": "Lodash",
+      "link": "//lodash.com/",
+      "content": "<p>A javaScript utility library, just gives a bit of extra stuff when writing JS. The hard part for me, when to use it and remembering I can use it.</p>",
+      "rank": 2,
+      "notes": "",
+      "tags": [
+        "JavaScript",
+        "Library"
+      ],
+      "stamp": "2017/04/24"
+    },
+    {
+      "id": "jsx",
+      "title": "JSX",
+      "link": "//jsx.github.io",
+      "content": "<p>Taking JavaScript a little further, the primary difference for someone like me, integrating html type content directly in the JS. It seems counter intuitive, and gave me a serious headache at first, but it kind of makes sense now.</p><p>If this wasn't a kind of important part of React I would never have even considered playing with it.</p>",
+      "rank": 2,
+      "notes": "",
+      "tags": [
+        "Abstraction",
+        "JavaScript",
+        "Single Page",
+        "Templating"
+      ],
+      "stamp": "2017/04/24"
+    },
+    {
+      "id": "sinatra",
+      "title": "Sinatra",
+      "link": "//www.sinatrarb.com/",
+      "content": "<p>A (DSL)domain-specific language for Ruby. I still don't get it. My limited experience tells me it's something to do with Routing in a Ruby application, but I'm still lost.</p>",
+      "rank": 1,
+      "notes": "",
+      "tags": [
+        "Ruby"
+      ],
+      "stamp": "2017/04/24"
+    },
+    {
+      "id": "rake",
+      "title": "Rake",
+      "link": "//ruby.github.io/rake/",
+      "content": "<p>Based on Make files, but this is the Ruby version. Written in ruby syntax, the Rakefile will have <code>do</code> and what not. It's purpose is essentially a task runner. So could be firing tests, moving files, etc.</p>",
+      "rank": 2,
+      "notes": "",
+      "tags": [
+        "Automation",
+        "Ruby"
+      ],
+      "stamp": "2017/04/24"
+    },
+    {
+      "id": "bootstrap",
+      "title": "Bootstrap",
+      "link": "//getbootstrap.com/",
+      "content": "<p>Big player in the frontend framework world.</p><p>I have never fully embraced all the features/components, but the logic of using it for things that you don't need \"custom\" or as a starting point for the basics makes sense.</p><p>Does have some specific dependencies like jQuery and Grunt.</p>",
+      "rank": 3,
+      "notes": "",
+      "tags": [
+        "CSS",
+        "Framework"
+      ],
+      "stamp": "2017/04/24"
+    },
+    {
+      "id": "thin",
+      "title": "Thin",
+      "link": "//code.macournoyer.com/thin/",
+      "content": "<p>Ruby web server. It's what pulls together database and app, so it's kind of a set it and forget it aspect but useful in a Ruby build project.</p>",
+      "rank": 2,
+      "notes": "",
+      "tags": [
+        "Automation",
+        "Ruby"
+      ],
+      "stamp": "2017/04/24"
+    },
+    {
+      "id": "sprockets",
+      "title": "Sprockets",
+      "link": "//github.com/rails/sprockets",
+      "content": "<p>Rails asset compilation. I understand what it is, just still fuzzy on how. Ties into the whole: makes a lot of sense as part of a Ruby project, but until then, ehh.</p>",
+      "rank": 3,
+      "notes": "",
+      "tags": [
+        "Automation",
+        "Preprocessor",
+        "Ruby"
+      ],
+      "stamp": "2017/04/24"
+    },
+    {
+      "id": "bundler",
+      "title": "Bundler",
+      "link": "//bundler.io/",
+      "content": "<p>A dependency manager for Ruby projects. it generally just works and makes sense as the defacto need for Ruby projects.</p>",
+      "rank": 3,
+      "notes": "",
+      "tags": [
+        "Manager",
+        "Ruby"
+      ],
+      "stamp": "2017/04/24"
+    },
+    {
+      "id": "yarn",
+      "title": "Yarn",
+      "link": "//yarnpkg.com/en/",
+      "content": "<p>At first I baulked, NPM works fine for node dependency management, why would I add something else to it.</p><p>I actually do like it, not only is it faster, but makes a bit more sense to me. Maybe it's because the lock file makes me feel like it behaves like ruby gems.</p>",
+      "rank": 4,
+      "notes": "",
+      "tags": [
+        "Manager",
+        "Node"
+      ],
+      "stamp": "2017/04/24"
+    },
+    {
+      "id": "react",
+      "title": "React",
+      "link": "//facebook.github.io/react/",
+      "content": "<p>Well, this here application is build in React, so I should know what it is. But for posterity, I'd sum it up as a JavaScript single page application library that is most notable for being component and state based.</p>",
+      "rank": 4,
+      "notes": "",
+      "tags": [
+        "JavaScript",
+        "Library",
+        "Single Page"
+      ],
+      "stamp": "2017/04/24"
+    },
+    {
+      "id": "vuejs",
+      "title": "Vue.js",
+      "link": "//vuejs.org",
+      "content": "<p>A UI framework thats touted as progressive and incrementally adoptable (rather than a full buy in I guess).</p><p>Supposedly kind of approachable, it follows a pretty JS single page app approach of attaching to basic DOM elements with templating, bindings (and yes, components).</p>",
+      "rank": 3,
+      "notes": "",
+      "tags": [
+        "Framework",
+        "JavaScript",
+        "Single Page"
+      ],
+      "stamp": "2017/04/24"
+    },
+    {
+      "id": "yeoman",
+      "title": "Yeoman",
+      "link": "//yeoman.io/",
+      "content": "<p>Scaffolding tool for webapps. Interesting idea. It's a \"generator\" that quickly builds up a project (usually based on someone elses stack definitions).</p><p>It's very opinionated... by design. If you're using a prebuilt generator you'll get all kinds of things out of the box, like a webpack/react application with xyz already part of the process.</p><p>The other side of the coin is that you can also use it to build your own generator, like the styleguide builder ideas we had. You can package up your workflow and make it reuable.</p>",
+      "rank": 3,
+      "notes": "",
+      "tags": [
+        "Automation",
+        "Node"
+      ],
+      "stamp": "2017/04/24"
+    },
+    {
+      "id": "snapsvg",
+      "title": "Snap.svg",
+      "link": "//snapsvg.io/",
+      "content": "<p>A JavaScript library that helps with interacting wish (mostly means animating) SVGs.</p><p>SVGs are very interesting to me, and this is a nice way to speed up the learning curve for manipulation. It's kind of like velocity, but more specifically targetted. It might not last forever, but right now it's a decent solution.</p>",
+      "rank": 4,
+      "notes": "",
+      "tags": [
+        "Animation",
+        "JavaScript",
+        "Library"
+      ],
+      "stamp": "2017/04/24"
+    },
+    {
+      "id": "web-animations-api",
+      "title": "Web Animations API",
+      "link": "//developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API",
+      "content": "<p>Currently a bit cutting edge in that it hasn't been integrated into browsers. But it's a potentially big step in front end animations that negats things like velocity.js or snapsvg.</p>",
+      "rank": 4,
+      "notes": "Keeping my eye on this one.",
+      "tags": [
+        "Animation"
+      ],
+      "stamp": "2017/04/24"
+    },
+    {
+      "id": "polymer",
+      "title": "Polymer",
+      "link": "//www.polymer-project.org/",
+      "content": "<p>Google's structure around web components.</p><p>Actually pretty interested in this and building \"web apps\" in a component based methodology, just need to spend the time with it.</p>",
+      "rank": 4,
+      "notes": "",
+      "tags": [
+        "JavaScript",
+        "Library",
+        "Templating"
+      ],
+      "stamp": "2017/04/24"
+    },
+    {
+      "id": "velocityjs",
+      "title": "Velocity.js",
+      "link": "//velocityjs.org/",
+      "content": "<p>Compared to the animate aspect of jQuery, but cleaner and faster (and isolated).</p><p>Interestingly it also competes a lot with CSS animations, but the theory is that if you're already using JS for some of the animation, then you probably don't want to mix and match.</p>",
+      "rank": 4,
+      "notes": "",
+      "tags": [
+        "Animation",
+        "JavaScript",
+        "Library"
+      ],
+      "stamp": "2017/04/24"
+    },
+    {
+      "id": "requirejs",
+      "title": "Require.js",
+      "link": "//requirejs.org/",
+      "content": "<p>It has actually been around for a while, but for some reason I've never had experience with it. I think that's because it's kind of just the basic aspect of modular thinking that the larger libraries do (looks very similar to React or vue structure).</p>",
+      "rank": 3,
+      "notes": "",
+      "tags": [
+        "JavaScript",
+        "Single Page"
+      ],
+      "stamp": "2017/04/24"
+    },
+    {
+      "id": "angular",
+      "title": "Angular",
+      "link": "https://angular.io",
+      "content": "<p>Angular has become a big player. If/when I get in it, I'll most likely be in version 2 (vs 1) which was a major overhaul.</p><p>Worth noting, they will move to semantic versioning, so they're already on to 4, or 5 or whatever.</p>",
+      "rank": 3,
+      "notes": "Considering looking into it, but put it lower in priority.",
+      "tags": [
+        "Framework",
+        "JavaScript",
+        "Single Page"
+      ],
+      "stamp": "2017/03/28"
+    } , {
+      "id": "backbone",
+      "title": "Backbone",
+      "link": "http://backbonejs.org/",
+      "content": "<p>Older player in the single page app world, but still solid IMO. Really what this primarily brought to the table for me was MVC and structure with things like <code>initialize</code>, <code>construct</code> etc.</p>",
+      "rank": 3,
+      "notes": "Thanks to Adam and the Rejuvenation project I feel like I have some real world experience, just can't loose it all.",
+      "tags": [
+        "Framework",
+        "JavaScript",
+        "Single Page"
+      ],
+      "stamp": "2017/03/28"
+    } , {
+      "id": "browserify",
+      "title": "Browserify",
+      "link": "http://browserify.org/",
+      "content": "<p>Collects JS modules (and script files) and mushes them all into a single app file. Often compared to requireJS, now webpack is taking over.</p><p>I guess it's similar to the way Node.js <em>requires</em> dependencies, but for compiling to the front end.</p>",
+      "rank": 3,
+      "notes": "",
+      "tags": [
+        "JavaScript",
+        "Automation",
+        "Node"
+      ],
+      "stamp": "2017/03/28"
+    } , {
+      "id": "burbon",
+      "title": "Burbon",
+      "link": "http://bourbon.io/",
+      "content": "<p>Another CSS Framework (in Sass). Comparable to Compass, and honestly, not nearly as pertinent as it used to be for me since things like autoprefixer and flexbox have replaced a lot of the need.</p>",
+      "rank": 3,
+      "notes": "",
+      "tags": [
+        "CSS",
+        "Framework"
+      ],
+      "stamp": "2017/03/28"
+    } , {
+      "id": "capybara",
+      "title": "Capybara",
+      "link": "http://jnicklas.github.io/capybara/",
+      "content": "<p>An interested aspect of testing suites (Ruby projects to be more specific).</p><p>I would need to spend more time with it (and a testing suite in conjuction), but it seems like a nice add on to \"humanize\" the process a little more.</p>",
+      "rank": 2,
+      "notes": "",
+      "tags": [
+        "Ruby",
+        "Testing"
+      ],
+      "stamp": "2017/05/19"
+    } , {
+      "id": "coffescript",
+      "title": "CoffeeScript",
+      "link": "http://coffeescript.org/",
+      "content": "<p>An abstraction of JavaScript, could say it \"cleans it up\". It's all still just javaScript, but cuts out some of the extra semicolons, var declarations, etc.</p>",
+      "rank": 4,
+      "notes": "",
+      "tags": [
+        "Abstraction",
+        "JavaScript",
+        "Preprocessor"
+      ],
+      "stamp": "2017/03/28"
+    } , {
+      "id": "compass",
+      "title": "compass",
+      "link": "http://compass-style.org/",
+      "content": "<p>CSS framework (in Sass). It has prebuilt stuff like a reset, some layout stuff, and other mixins.</p><p>It's also a preprocessor that can do the compiling of Sass.",
+      "rank": 4,
+      "notes": "",
+      "tags": [
+        "CSS",
+        "Framework",
+        "Preprocessor"
+      ],
+      "stamp": "2017/03/28"
+    } , {
+      "id": "cucumber",
+      "title": "Cucumber",
+      "link": "http://cukes.info/",
+      "content": "<p>Language for writing Behavior driven development acceptance testing.</p><p>Kind of takes a brain shift that I havn't found the groove with yet. Also most applicable in group collaboration, but <em>should</em> be able to implement on smaller projects too.</p>",
+      "rank": 2,
+      "notes": "Why do I struggle with implementation on this?",
+      "tags": [
+        "Ruby",
+        "Testing"
+      ],
+      "stamp": "2017/05/22"
+    } , {
+      "id": "ember",
+      "title": "Ember",
+      "link": "http://emberjs.com/",
+      "content": "<p>A single page app framework that still has potential, but I feel like React and Angular 2 have really pushed this back. Unless work pushed me in this direction I don't think it will ever be in my world.</p>",
+      "rank": 2,
+      "notes": "",
+      "tags": [
+        "Framework",
+        "JavaScript",
+        "Single Page"
+      ],
+      "stamp": "2017/03/28"
+    },
+    {
+      "id": "wordpress",
+      "title": "WordPress",
+      "link": "http://wordpress.org/",
+      "content": "<p>We all know the big guy in the open source, blog turned any website you need platform.</p>",
+      "rank": 4,
+      "notes": "",
+      "tags": [
+        "CMS",
+        "PHP"
+      ],
+      "stamp": "2017/03/28"
+    },
+    {
+      "id": "expression",
+      "title": "Expression Engine",
+      "link": "http://ellislab.com/expressionengine",
+      "content": "<p>Well, I know it, so that's a thing. Work pushes it, I could keep going, but otherwise, I'm ok with this fading away or being replaced by something like <a href=\"#craft\">Craft</a>.</p>",
+      "rank": 2,
+      "notes": "",
+      "tags": [
+        "CMS",
+        "PHP"
+      ],
+      "stamp": "2017/03/28"
+    } , {
+      "id": "git",
+      "title": "Git",
+      "link": "http://git-scm.com/",
+      "content": "<p>Version control is a good thing. Whether small personal projects or large team, it's critical.</p><p>I remember trying to set up my own SVN back in the day and hating it. Using Git (in conjunction with Github or Bitbucket) just makes my life so much better.</p>",
+      "rank": 4,
+      "notes": "",
+      "tags": [
+        "Manager"
+      ],
+      "stamp": "2017/05/22"
+    } , {
+      "id": "gulp",
+      "title": "Gulp",
+      "link": "http://gulpjs.com/",
+      "content": "<p>Where to start, well, it's like <a href=\"http://gruntjs.com/\" target=\"_blank\">Grunt</a>, but <em>cooler</em>. It's essentially a task manager that runs stuffs for dev or prod environments.</p><p>Should note, now in the webpack world these task runners aren't quite as pertinent for dev, but still has it's place.</p>",
+      "rank": 4,
+      "notes": "",
+      "tags": [
+        "JavaScript",
+        "Preprocessor"
+      ],
+      "stamp": "2017/03/28"
+    } , {
+      "id": "haml",
+      "title": "Haml",
+      "link": "http://haml.info/",
+      "content": "<p>A ruby html templating language that takes some serious indentation control.</p><p>I feel pretty comfortable with it and would be ok if I was on another larger Ruby project.</p>",
+      "rank": 3,
+      "notes": "",
+      "tags": [
+        "Abstraction",
+        "Ruby"
+      ],
+      "stamp": "2017/03/28"
+    } , {
+      "id": "handlebars",
+      "title": "Handlebars",
+      "link": "http://handlebarsjs.com/",
+      "content": "<p>similar to html, but has <code>{{bracket includes}}</code> stuff going on.</p><p> Similar to <a href=\"#haml\">haml</a>, <a href=\"#pug\">Pug</a>, etc. An extension to Mustache templates.</p><p>Ember mentions something about handlebar integration, but also useful for standalone.</p>",
+      "rank": 4,
+      "notes": "",
+      "tags": [
+        "JavaScript",
+        "Templating"
+      ],
+      "stamp": "2017/03/28"
+    } , {
+      "id": "imagemin",
+      "title": "Imagemin",
+      "content": "<p>haven't looked too deep in to the node module, but once the task (gulp) is up and running it seems to <em>just work</em>. Ohh yeah, it optimizes images, that's it's job.</p>",
+      "rank": 4,
+      "notes": "",
+      "tags": [
+        "Automation",
+        "Node"
+      ],
+      "stamp": "2017/03/28"
+    } , {
+      "id": "pug",
+      "title": "Pug",
+      "link": "https://pugjs.org/",
+      "content": "<p>JavaScript templating formerly known as Jade. Not sure when/if I'll dip into this again now with JSX and what not.</p>",
+      "rank": 2,
+      "notes": "",
+      "tags": [
+        "JavaScript",
+        "Templating"
+      ],
+      "stamp": "2017/03/28"
+    } , {
+      "id": "jquery",
+      "title": "jQuery",
+      "link": "http://jquery.com/",
+      "content": "<p>The ol' jQuery. Still has it's place, but nice when I see a project without it.</p>",
+      "rank": 4,
+      "notes": "",
+      "tags": [
+        "JavaScript",
+        "Library"
+      ],
+      "stamp": "2017/03/28"
+    } , {
+      "id": "livereload",
+      "title": "LiveReload",
+      "content": "<p>If you hook up both ends it creates auto-refresh of a browser on save of files.</p><ul><li>Need the browser plugin (chrome) and the little icon clicked to \"listen\"</li><li>Gulp is kicking this off on it's end with gulp-livereload (on  port 35729).</li></ul><p>This is potentially no more since Browsersync does so much more if integrated.</p>",
+      "rank": 2,
+      "notes": "get it running and just expect",
+      "tags": [
+        "Automation"
+      ],
+      "stamp": "2017/03/28"
+    } , {
+      "id": "magento",
+      "title": "Magento",
+      "link": "http://magento.com/",
+      "content": "<p>Version 1, frustrating but I got my head around it.</p><p> Version 2, no idea, might have to re-learn.</p><p>Do I want to? Ehh, only if necessary, but not my ideal work anymore.</p>",
+      "rank": 2,
+      "notes": "",
+      "tags": [
+        "PHP"
+      ],
+      "stamp": "2017/03/28"
+    } , {
+      "id": "modernizr",
+      "title": "Modernizr",
+      "link": "http://modernizr.com/",
+      "content": "<p>I've used modernizr for a long time, but honestly, I've never really needed it (or should say, leveraged it).</p><p>The theory is nice, to let you know what the browser is capable of, and you can then target progressive enhancements. Or the other way around, if it can't do something, then give them the basics.</p>",
+      "rank": 4,
+      "notes": "I really should take the time to really sink my teeth into a good test of using it to it's full potential.",
+      "tags": [
+        "JavaScript"
+      ],
+      "stamp": "2017/03/28"
+    } , {
+      "id": "neat",
+      "title": "Burbon Neat",
+      "link": "http://neat.bourbon.io/",
+      "content": "<p>Neat is a grid framework on top of Burbon. A decently clean grid system, but honestly flexbox/css grids are endangering things like this.</p>",
+      "rank": 3,
+      "notes": "",
+      "tags": [
+        "CSS",
+        "Framework"
+      ],
+      "stamp": "2017/03/28"
+    } , {
+      "id": "nodejs",
+      "title": "Node.js",
+      "link": "http://nodejs.org/",
+      "content": "<p>You can call it server side JavaScript, but honestly for people like me, it's just an ecosystem for higher things (read react, or any of the million npm package uses).</p><p>Even more than PHP or Ruby environments, I spend my time writing JavaScript not fully understanding if it has anything to do with Node or not, but that's fine.</p>",
+      "rank": 2,
+      "notes": "",
+      "tags": [
+        "JavaScript",
+        "Node"
+      ],
+      "stamp": "2017/03/28"
+    } , {
+      "id": "npm",
+      "title": "NPM",
+      "link": "https://www.npmjs.org/",
+      "content": "<p>Node Packaged Modules. Ships with nodejs, so I've got it. It's a package manager (like Brew) but just for Node stuff. Seems redundant, but <a href=\"#yarn\">yarn</a> is the new version of this that I'm currently interested in.</p>",
+      "rank": 2,
+      "notes": "",
+      "tags": [
+        "Manager",
+        "JavaScript"
+      ],
+      "stamp": "2017/03/28"
+    } , {
+      "id": "PHP",
+      "title": "PHP",
+      "link": "http://www.php.net/",
+      "content": "<p>You know, that little language called php.</p>",
+      "rank": 3,
+      "notes": "",
+      "tags": [
+        "PHP"
+      ],
+      "stamp": "2017/03/28"
+    } , {
+      "id": "prototype",
+      "title": "prototype",
+      "link": "http://prototypejs.org/",
+      "content": "<p>Ohh protype, I hope I'm done with you forever.</p><p>It's an old JavaScript library ala jQuery. Really only heard about it in the Magento circle.</p>",
+      "rank": 1,
+      "notes": "",
+      "tags": [
+        "JavaScript",
+        "Library"
+      ],
+      "stamp": "2017/03/28"
+    } , {
+      "id": "rails",
+      "title": "Ruby on Rails",
+      "link": "http://rubyonrails.org/",
+      "content": "<p>Well it's a beast, but if I wanted to go deeper into Application, this would be a good direction. I think the biggest takeaway for me is the focus on MVC and the \"Active\" pieces that make it up.</p>",
+      "rank": 3,
+      "notes": "",
+      "tags": [
+        "Ruby",
+         "Framework"
+      ],
+      "stamp": "2017/03/28"
+    } , {
+      "id": "Ruby",
+      "title": "Ruby",
+      "link": "https://www.ruby-lang.org/en/",
+      "content": "<p>Another lil' ol' thing</p>",
+      "rank": 2,
+      "notes": "",
+      "tags": [
+        "Ruby"
+      ],
+      "stamp": "2017/03/28"
+    } , {
+      "id": "sass",
+      "title": "Sass",
+      "link": "http://sass-lang.com/",
+      "content": "<p>This is almost second nature now. Comfortable with either \"full\" .sass or .scss, but it all falls back to css pretty easily.</p><p>Mixins, functions, variables, includes. Getting it done.</p>",
+      "rank": 5,
+      "notes": "Must have forevers",
+      "tags": [
+        "Abstraction",
+        "CSS",
+        "Preprocessor"
+      ],
+      "stamp": "2017/03/28"
+    } , {
+      "id": "underscore",
+      "title": "Underscore",
+      "link": "http://underscorejs.org/",
+      "content": "<p>Additional functions for JavaScript. It's a bunch more things you either can't do, or would be convoluted with vanilla javascript.</p><p>Seems really useful, but for some reason getting more power with JavaScript just feels like more to learn.",
+      "rank": 3,
+      "notes": "",
+      "tags": [
+        "Library",
+        "JavaScript"
+      ],
+      "stamp": "2017/03/28"
+    }
+  ]
+}

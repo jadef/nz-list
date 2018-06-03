@@ -1,0 +1,69 @@
+// ----- Themes
+// Defined with number identifier
+// Shouldn't be used directly anywhere but below in the lower
+// definition sections of this file
+
+// - 1
+$c-1-primary:       #de7a22;
+$c-1-secondary:     #f4cc70;
+$c-1-light:         #fff;
+$c-1-dark:          #4a4a4a;
+$c-1-accent:        #20948b;
+$c-1-accent-light:  lighten($c-1-accent, 15%);
+$c-1-accent-dark:   darken($c-1-accent, 10%);
+$c-1-background:    lighten($c-1-secondary, 25%);
+$c-1-background-dk: #f8e4b5;
+
+// - 2
+$c-2-primary:       #1995ad;
+$c-2-secondary:     #a1d7e2;
+$c-2-light:         #f1f1f2;
+$c-2-dark:          #000;
+$c-2-accent:        #bf292c;
+$c-2-accent-light:  lighten($c-2-accent, 20%);
+$c-2-accent-dark:   darken($c-2-accent, 20%);
+$c-2-background:    lighten($c-2-secondary, 28%);
+$c-2-background-dk: #efefef;
+
+// - 3
+$c-3-primary:       #fbcd4b;
+$c-3-secondary:     #edeca0;
+$c-3-light:         #fff;
+$c-3-dark:          #282623;
+$c-3-accent:        #88a550;
+$c-3-accent-light:  lighten($c-3-accent, 20%);
+$c-3-accent-dark:   darken($c-3-accent, 18%);
+$c-3-background:    lighten($c-3-secondary, 22%);
+$c-3-background-dk: #f0eee4;
+
+// - 4
+$c-4-primary:       #4cb5f5;
+$c-4-secondary:     #e4e1dc;
+$c-4-light:         #fff;
+$c-4-dark:          #000;
+$c-4-accent:        #b3c100;
+$c-4-accent-light:  lighten($c-4-accent, 5%);
+$c-4-accent-dark:   darken($c-4-accent, 12%);
+$c-4-background:    lighten($c-4-secondary, 10%);
+$c-4-background-dk: #eae9e8;
+
+// --------------
+// ----- Pallette
+// Color variables to use throughout the styles
+
+$c-primary:       $c-1-primary;
+$c-secondary:     $c-1-secondary;
+$c-light:         $c-1-light;
+$c-dark:          $c-1-dark;
+$c-accent:        $c-1-accent;
+$c-accent-light:  $c-1-accent-light;
+$c-accent-dark:   $c-1-accent-dark;
+$c-background:    $c-1-background;
+$c-background-dk: $c-1-background-dk;
+
+// ----- Gradients
+// Define any css gradients here for organization and reuse
+$c-gr-light:   linear-gradient($c-light 0%, $c-background 50%);
+$c-gr-light2:  linear-gradient($c-light 0%, $c-secondary 100%);
+$c-gr-primary: linear-gradient($c-primary 0%, $c-secondary 100%);
+$c-gr-accent:  linear-gradient(90deg, $c-accent-light 0%, $c-accent 100%);

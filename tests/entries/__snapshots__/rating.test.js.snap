@@ -1,0 +1,221 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rating Renders 1`] = `
+<div
+  className="rating"
+  title="Star Rating"
+>
+  <svg
+    className="star no"
+    viewBox="0 0 26 26"
+  >
+    <defs>
+      <filter
+        filterUnits="objectBoundingBox"
+        height="210.0%"
+        id="star-shadow"
+        width="210.0%"
+        x="-55.0%"
+        y="-35.0%"
+      >
+        <feOffset
+          dx="0"
+          dy="4"
+          in="SourceAlpha"
+          result="shadowOffsetOuter1"
+        />
+        <feGaussianBlur
+          in="shadowOffsetOuter1"
+          result="shadowBlurOuter1"
+          stdDeviation="3"
+        />
+        <feColorMatrix
+          in="shadowBlurOuter1"
+          type="matrix"
+          values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0"
+        />
+      </filter>
+    </defs>
+    <use
+      className="c-bg-dark"
+      fillOpacity="1"
+      filter="url(#star-shadow)"
+      xlinkHref="#star"
+    />
+    <polygon
+      id="star"
+      points="10 14 4.12214748 18.0901699 6.19577393 11.236068 0.489434837 6.90983006 7.64885899 6.76393202 10 0 12.351141 6.76393202 19.5105652 6.90983006 13.8042261 11.236068 15.8778525 18.0901699"
+    />
+  </svg>
+  <svg
+    className="star no"
+    viewBox="0 0 26 26"
+  >
+    <use
+      className="c-bg-dark"
+      fillOpacity="1"
+      filter="url(#star-shadow)"
+      xlinkHref="#star"
+    />
+    <polygon
+      id="star"
+      points="10 14 4.12214748 18.0901699 6.19577393 11.236068 0.489434837 6.90983006 7.64885899 6.76393202 10 0 12.351141 6.76393202 19.5105652 6.90983006 13.8042261 11.236068 15.8778525 18.0901699"
+    />
+  </svg>
+  <svg
+    className="star no"
+    viewBox="0 0 26 26"
+  >
+    <use
+      className="c-bg-dark"
+      fillOpacity="1"
+      filter="url(#star-shadow)"
+      xlinkHref="#star"
+    />
+    <polygon
+      id="star"
+      points="10 14 4.12214748 18.0901699 6.19577393 11.236068 0.489434837 6.90983006 7.64885899 6.76393202 10 0 12.351141 6.76393202 19.5105652 6.90983006 13.8042261 11.236068 15.8778525 18.0901699"
+    />
+  </svg>
+  <svg
+    className="star no"
+    viewBox="0 0 26 26"
+  >
+    <use
+      className="c-bg-dark"
+      fillOpacity="1"
+      filter="url(#star-shadow)"
+      xlinkHref="#star"
+    />
+    <polygon
+      id="star"
+      points="10 14 4.12214748 18.0901699 6.19577393 11.236068 0.489434837 6.90983006 7.64885899 6.76393202 10 0 12.351141 6.76393202 19.5105652 6.90983006 13.8042261 11.236068 15.8778525 18.0901699"
+    />
+  </svg>
+  <svg
+    className="star no"
+    viewBox="0 0 26 26"
+  >
+    <use
+      className="c-bg-dark"
+      fillOpacity="1"
+      filter="url(#star-shadow)"
+      xlinkHref="#star"
+    />
+    <polygon
+      id="star"
+      points="10 14 4.12214748 18.0901699 6.19577393 11.236068 0.489434837 6.90983006 7.64885899 6.76393202 10 0 12.351141 6.76393202 19.5105652 6.90983006 13.8042261 11.236068 15.8778525 18.0901699"
+    />
+  </svg>
+</div>
+`;
+
+exports[`Star Renders 1`] = `
+<div
+  className="rating"
+  title="Star Rating"
+>
+  <svg
+    className="star no"
+    viewBox="0 0 26 26"
+  >
+    <defs>
+      <filter
+        filterUnits="objectBoundingBox"
+        height="210.0%"
+        id="star-shadow"
+        width="210.0%"
+        x="-55.0%"
+        y="-35.0%"
+      >
+        <feOffset
+          dx="0"
+          dy="4"
+          in="SourceAlpha"
+          result="shadowOffsetOuter1"
+        />
+        <feGaussianBlur
+          in="shadowOffsetOuter1"
+          result="shadowBlurOuter1"
+          stdDeviation="3"
+        />
+        <feColorMatrix
+          in="shadowBlurOuter1"
+          type="matrix"
+          values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0"
+        />
+      </filter>
+    </defs>
+    <use
+      className="c-bg-dark"
+      fillOpacity="1"
+      filter="url(#star-shadow)"
+      xlinkHref="#star"
+    />
+    <polygon
+      id="star"
+      points="10 14 4.12214748 18.0901699 6.19577393 11.236068 0.489434837 6.90983006 7.64885899 6.76393202 10 0 12.351141 6.76393202 19.5105652 6.90983006 13.8042261 11.236068 15.8778525 18.0901699"
+    />
+  </svg>
+  <svg
+    className="star no"
+    viewBox="0 0 26 26"
+  >
+    <use
+      className="c-bg-dark"
+      fillOpacity="1"
+      filter="url(#star-shadow)"
+      xlinkHref="#star"
+    />
+    <polygon
+      id="star"
+      points="10 14 4.12214748 18.0901699 6.19577393 11.236068 0.489434837 6.90983006 7.64885899 6.76393202 10 0 12.351141 6.76393202 19.5105652 6.90983006 13.8042261 11.236068 15.8778525 18.0901699"
+    />
+  </svg>
+  <svg
+    className="star no"
+    viewBox="0 0 26 26"
+  >
+    <use
+      className="c-bg-dark"
+      fillOpacity="1"
+      filter="url(#star-shadow)"
+      xlinkHref="#star"
+    />
+    <polygon
+      id="star"
+      points="10 14 4.12214748 18.0901699 6.19577393 11.236068 0.489434837 6.90983006 7.64885899 6.76393202 10 0 12.351141 6.76393202 19.5105652 6.90983006 13.8042261 11.236068 15.8778525 18.0901699"
+    />
+  </svg>
+  <svg
+    className="star no"
+    viewBox="0 0 26 26"
+  >
+    <use
+      className="c-bg-dark"
+      fillOpacity="1"
+      filter="url(#star-shadow)"
+      xlinkHref="#star"
+    />
+    <polygon
+      id="star"
+      points="10 14 4.12214748 18.0901699 6.19577393 11.236068 0.489434837 6.90983006 7.64885899 6.76393202 10 0 12.351141 6.76393202 19.5105652 6.90983006 13.8042261 11.236068 15.8778525 18.0901699"
+    />
+  </svg>
+  <svg
+    className="star no"
+    viewBox="0 0 26 26"
+  >
+    <use
+      className="c-bg-dark"
+      fillOpacity="1"
+      filter="url(#star-shadow)"
+      xlinkHref="#star"
+    />
+    <polygon
+      id="star"
+      points="10 14 4.12214748 18.0901699 6.19577393 11.236068 0.489434837 6.90983006 7.64885899 6.76393202 10 0 12.351141 6.76393202 19.5105652 6.90983006 13.8042261 11.236068 15.8778525 18.0901699"
+    />
+  </svg>
+</div>
+`;
