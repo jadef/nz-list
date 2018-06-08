@@ -3,36 +3,39 @@
     {
       "id": "butcher-table",
       "title": "Butcher Block Table",
-      "claimed": true,
       "content": "<p></p>",
       "notes": "",
       "tags": [
         "Furniture",
         "Livingroom"
-      ]
+      ],
+      "image": ["720/480"],
+      "claimed": true
     },
     {
       "id": "wicker-chest",
       "title": "Wicker Chest",
-      "claimed": false,
       "content": "<p></p>",
       "notes": "",
       "tags": [
         "Furniture",
         "Livingroom"
-      ]
+      ],
+      "image": ["720/480", "720/480", "720/480"],
+      "claimed": false
     },
     {
       "id": "couch",
       "title": "Couch & Ottoman",
-      "claimed": false,
       "content": "<p>Talk about it if we need to</p>",
       "notes": "Sub note here.",
       "tags": [
         "Furniture",
         "Livingroom",
         "Gently Used"
-      ]
+      ],
+      "image": ["720/480"],
+      "claimed": false
     }
   ]
 }
