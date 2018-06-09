@@ -24,7 +24,7 @@ class Entry extends React.Component {
     const imageList = this.props.entry.image;
 
     const allImages = imageList.map((image, index) => (
-      <span className={index === 0 ? "img first" : "img"}><img  src={"https://picsum.photos/" + image} /></span>
+      <span className={index === 0 ? "img first" : "img"}><img  src={"images/" + image} /></span>
     ));
 
     return ( allImages );
