@@ -8,6 +8,7 @@
 .sass-cache
 node_modules/
 public/
+dist/
 
 # Editor temps and files #
 ##########################
