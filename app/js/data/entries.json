@@ -9,32 +9,635 @@
         "Furniture",
         "Livingroom"
       ],
-      "image": ["720/480"],
+      "image": [],
       "claimed": true
     },
     {
       "id": "wicker-chest",
       "title": "Wicker Chest",
-      "content": "<p></p>",
+      "content": "<p>Decent storage, served us well as a coffee table.</p>",
       "notes": "",
       "tags": [
         "Furniture",
-        "Livingroom"
+        "Livingroom",
+        "Like New"
       ],
-      "image": ["720/480", "720/480", "720/480"],
+      "image": ["wicker-chest1.jpg", "wicker-chest2.jpg"],
       "claimed": false
     },
     {
       "id": "couch",
       "title": "Couch & Ottoman",
-      "content": "<p>Talk about it if we need to</p>",
-      "notes": "Sub note here.",
+      "content": "<p>This is a couch, it's comfy.</p>",
+      "notes": "Stretching dog for scale",
       "tags": [
         "Furniture",
         "Livingroom",
         "Gently Used"
       ],
-      "image": ["720/480"],
+      "image": ["couch1.jpg", "couch2.jpg", "couch3.jpg"],
+      "claimed": false
+    },
+    {
+      "id": "ac",
+      "title": "Air Conditioner",
+      "content": "<p></p>",
+      "notes": "",
+      "tags": [
+        "Gently Used"
+      ],
+      "image": [""],
+      "claimed": false
+    },
+    {
+      "id": "shower-curtain",
+      "title": "Shower Curtain",
+      "content": "<p></p>",
+      "notes": "",
+      "tags": [
+        "Bathroom",
+        "Gently Used"
+      ],
+      "image": [""],
+      "claimed": false
+    },
+    {
+      "id": "cube",
+      "title": "Cube Storage",
+      "content": "<p></p>",
+      "notes": "",
+      "tags": [
+        "Furniture",
+        "Like New"
+      ],
+      "image": [""],
+      "claimed": false
+    },
+    {
+      "id": "desk-lamp",
+      "title": "Desk Lamp",
+      "content": "<p>IKEA, style: RANARP  - Work lamp with LED bulb, Sliver</p><p><a target=\"_blank\" href=\"https://www.ikea.com/us/en/catalog/products/20335101/\">Buy New</a>: $32.99</p><p>Asking: $15</p>",
+      "notes": "",
+      "tags": [
+        "Lighting",
+        "Like New"
+      ],
+      "image": [""],
+      "claimed": false
+    },
+    {
+      "id": "vacuum",
+      "title": "Vacuum",
+      "content": "<p></p>",
+      "notes": "",
+      "tags": [
+        "Tools",
+        "Well Loved"
+      ],
+      "image": [""],
+      "claimed": false
+    },
+    {
+      "id": "curtains",
+      "title": "Curtains",
+      "content": "<p></p>",
+      "notes": "",
+      "tags": [
+        "Bedroom",
+        "Livingroom",
+        "Like New"
+      ],
+      "image": [""],
+      "claimed": false
+    },
+    {
+      "id": "door-mats",
+      "title": "Door Mats",
+      "content": "<p></p>",
+      "notes": "",
+      "tags": [
+        "Gently Used"
+      ],
+      "image": [""],
+      "claimed": false
+    },
+    {
+      "id": "outside-pots",
+      "title": "Pots - Outside",
+      "content": "<p></p>",
+      "notes": "",
+      "tags": [
+        "Gardening",
+        "Gently Used",
+        "Well Loved"
+      ],
+      "image": [""],
+      "claimed": false
+    },
+    {
+      "id": "lawnmower",
+      "title": "Lawn Mower",
+      "content": "<p></p>",
+      "notes": "",
+      "tags": [
+        "Gardening",
+        "Tools",
+        "Well Loved"
+      ],
+      "image": [""],
+      "claimed": false
+    },
+    {
+      "id": "weedwacker",
+      "title": "Weedwacker",
+      "content": "<p></p>",
+      "notes": "",
+      "tags": [
+        "Gardening",
+        "Tools",
+        "Gently Used"
+      ],
+      "image": [""],
+      "claimed": false
+    },
+    {
+      "id": "bed",
+      "title": "Bed",
+      "content": "<p></p>",
+      "notes": "",
+      "tags": [
+        "Furniture",
+        "Bedroom",
+        "Gently Used"
+      ],
+      "image": [""],
+      "claimed": false
+    },
+    {
+      "id": "rug-blue",
+      "title": "Rug - blue",
+      "content": "<p></p>",
+      "notes": "",
+      "tags": [
+        "Livingroom",
+        "Gently Used"
+      ],
+      "image": [""],
+      "claimed": false
+    },
+    {
+      "id": "rug-red",
+      "title": "Rug - Red",
+      "content": "<p>IKEA VALBY RUTA Rug, low pile, multicolor Size: 4’4” x 6’5”</p><p><a target=\"_blank\" href=\"https://www.ikea.com/us/en/catalog/products/00322029/\">Buy New</a>: $59.99</p><p>Asking: $30</p>",
+      "notes": "",
+      "tags": [
+        "Livingroom",
+        "Gently Used"
+      ],
+      "image": [""],
+      "claimed": false
+    },
+    {
+      "id": "rug-tan",
+      "title": "Rug - Tan",
+      "content": "<p></p>",
+      "notes": "",
+      "tags": [
+        "Livingroom",
+        "Well Loved"
+      ],
+      "image": [""],
+      "claimed": false
+    },
+    {
+      "id": "wine-glasses",
+      "title": "Wine Glasses",
+      "content": "<p></p>",
+      "notes": "",
+      "tags": [
+        "Kitchen",
+        "Like New",
+        "Gently Used"
+      ],
+      "image": [""],
+      "claimed": false
+    },
+    {
+      "id": "chairs-outside",
+      "title": "Chairs",
+      "content": "<p></p>",
+      "notes": "",
+      "tags": [
+        "Furniture",
+        "Livingroom",
+        "Well Loved"
+      ],
+      "image": [""],
+      "claimed": false
+    },
+    {
+      "id": "chair-lawn",
+      "title": "Chair - Lawn",
+      "content": "<p></p>",
+      "notes": "",
+      "tags": [
+        "Furniture",
+        "Well Loved"
+      ],
+      "image": [""],
+      "claimed": false
+    },
+    {
+      "id": "grill",
+      "title": "Grill",
+      "content": "<p></p>",
+      "notes": "",
+      "tags": [
+        "Tools",
+        "Well Loved"
+      ],
+      "image": [""],
+      "claimed": false
+    },
+    {
+      "id": "table-dining-outside",
+      "title": "Table - outside dining",
+      "content": "<p></p>",
+      "notes": "",
+      "tags": [
+        "Furniture",
+        "Livingroom",
+        "Well Loved"
+      ],
+      "image": [""],
+      "claimed": false
+    },
+    {
+      "id": "cabinet-purple",
+      "title": "Cabinet - Purple",
+      "content": "<p></p>",
+      "notes": "",
+      "tags": [
+        "Furniture",
+        "Livingroom",
+        "Gently Used"
+      ],
+      "image": [""],
+      "claimed": false
+    },
+    {
+      "id": "filecabinet",
+      "title": "Filing Cabinet",
+      "content": "<p>bought from IKEA, but can find it on overstock.com/Google Express</p><p>Black, 2-drawer steel file cabinet with lock</p><p><a target=\"_blank\" href=\"https://express.google.com/product/8469024292404765450_7967076485153460070_118724597?oc=OgkxMTg3MjQ1OTc\">Buy new</a>: $67.49</p><p>Asking: $40 (includes hanging folders and keys (2) for lock)</p>",
+      "notes": "",
+      "tags": [
+        "Tools",
+        "Office",
+        "Gently Used"
+      ],
+      "image": [""],
+      "claimed": false
+    },
+    {
+      "id": "desk-parts",
+      "title": "Desk",
+      "content": "<p>All parts bought for: $172.85  Asking Price for DIY desk: $90</p><p>Or buy separate sections:</p><p>Desk top  (IKEA , style: GERTON Table top, beech; size: 61x29 1/2\") <a target=\"_blank\" href=\"https://www.ikea.com/us/en/catalog/products/50106773/\">Buy new</a>: $90; Asking: $60</p><p>Monitor riser board (IKEA, style: LACK Wall shelf, birch effect; size: 43 1/4x10 1/4\" <a target=\"_blank\" href=\"https://www.ikea.com/us/en/catalog/products/10159099/\">Buy new</a>: $19.99; Asking $10</p><p>Bricks to support monitor riser: Home Depot 8 in. x 2-1/4 in. x 4 in. Clay <a target=\"_blank\" href=\"https://www.homedepot.com/p/8-in-x-2-1-4-in-x-4-in-Clay-Brick-RED0126MCO/100323015\">Buy new</a>: $0.48/each; Asking Price: Free</p><p>Desk legs (2): Home Depot, 34 in. Adjustable Folding Sawhorse <a target=\"_blank\" href=\"https://www.homedepot.com/p/34-in-Adjustable-Folding-Sawhorse-SH3801/206261852\">Buy New</a>: $29.99 ea; Asking : $15 ea</p>",
+      "notes": "",
+      "tags": [
+        "Furniture",
+        "Office",
+        "Gently Used",
+        "Well Loved"
+      ],
+      "image": [""],
+      "claimed": false
+    },
+    {
+      "id": "desk-garage",
+      "title": "Desk",
+      "content": "<p></p>",
+      "notes": "",
+      "tags": [
+        "Furniture",
+        "Office",
+        "Well Loved"
+      ],
+      "image": [""],
+      "claimed": false
+    },
+    {
+      "id": "bookcase",
+      "title": "Bookcase - Red",
+      "content": "<p></p>",
+      "notes": "",
+      "tags": [
+        "Furniture",
+        "Office",
+        "Gently Used"
+      ],
+      "image": [""],
+      "claimed": false
+    },
+    {
+      "id": "papershredder",
+      "title": "Paper Shredder",
+      "content": "<p>AmazonBasics 6-Sheet Cross-Cut Paper and Credit Card Shredder</p><p><a target=\"_blank\" href=\"https://www.amazon.com/AmazonBasics-6-Sheet-Cross-Cut-Credit-Shredder/dp/B00HFJWKWK/ref=sr_1_4?s=office-electronics&ie=UTF8&qid=1528496222&sr=1-4&keywords=paper+shredder\">Buy new</a>: $29.98</p><p>Asking: $15</p>",
+      "notes": "",
+      "tags": [
+        "Tools",
+        "Office",
+        "Gently Used"
+      ],
+      "image": [""],
+      "claimed": false
+    },
+    {
+      "id": "couch-futon",
+      "title": "Couch - Futon",
+      "content": "<p></p>",
+      "notes": "",
+      "tags": [
+        "Furniture",
+        "Bedroom",
+        "Well Loved"
+      ],
+      "image": [""],
+      "claimed": false
+    },
+    {
+      "id": "vanity",
+      "title": "Dresser/Vanity",
+      "content": "<p></p>",
+      "notes": "",
+      "tags": [
+        "Furniture",
+        "Bedroom",
+        "Well Loved"
+      ],
+      "image": [""],
+      "claimed": false
+    },
+    {
+      "id": "monitor",
+      "title": "Computer Monitor",
+      "content": "<p>Dell S2340M Black 23\" 7ms (GTG) Widescreen LED Backlight LCD Monitor IPS 250 cd/m2 1,000:1</p><p><a target=\"_blank\" href=\"https://www.newegg.com/Product/Product.aspx?Item=N82E16824260109\">Here it is new</a></p><p>Asking: $75 (includes: cords for connecting to laptop)</p>",
+      "notes": "",
+      "tags": [
+        "Office",
+        "Like New"
+      ],
+      "image": [""],
+      "claimed": false
+    },
+    {
+      "id": "dresser-nightstand",
+      "title": "Dresser Drawers",
+      "content": "<p></p>",
+      "notes": "",
+      "tags": [
+        "Furniture",
+        "Bedroom",
+        "Well Loved"
+      ],
+      "image": [""],
+      "claimed": false
+    },
+    {
+      "id": "mirror-wall",
+      "title": "Mirror",
+      "content": "<p></p>",
+      "notes": "",
+      "tags": [
+        "Bedroom",
+        "Well Loved"
+      ],
+      "image": [""],
+      "claimed": false
+    },
+    {
+      "id": "keyboard-mouse",
+      "title": "Keyboard/Mouse",
+      "content": "<p>Logitech MK550 Wireless Wave Keyboard and Mouse Combo — Includes Keyboard and Mouse, Long Battery Life, Ergonomic Wave Design</p><p><a target=\"_blank\" href=\"https://www.amazon.com/Logitech-MK550-Wireless-Keyboard-Mouse/dp/B003VAHYNC/ref=sr_1_4?s=pc&ie=UTF8&qid=1528498333&sr=1-4&keywords=logitech+keyboard+and+mouse+wireless\">Buy new from Amazon</a>: $44.97</p><p>Asking: $20 (includes batteries (plus spares) and nearly new can of Dust-Off compressed gas duster)</p>",
+      "notes": "",
+      "tags": [
+        "Tools",
+        "Office",
+        "Gently Used"
+      ],
+      "image": [""],
+      "claimed": false
+    },
+    {
+      "id": "surgeprotector",
+      "title": "Surge protector",
+      "content": "<p>Monster Core Power 1200 12-Outlet Surge Protector with USB Charging, White</p><a target=\"_blank\" href=\"https://www.walmart.com/ip/Monster-Core-Power-1200-12-Outlet-Surge-Protector-with-USB-Charging-White/47381924?wmlspartner=wlpa&adid=22222222227034659754&wl0=&wl1=g&wl2=c&wl3=92850036048&wl4=aud-273067695102:pla-129359971008&wl5=9061081&wl6=&wl7=&wl8=&wl9=pla&wl10=8175035&wl11=online&wl12=47381924&wl13=&veh=sem\">Buy New from Walmart</a>: $34.58</p>Asking : $15</p>",
+      "notes": "",
+      "tags": [
+        "Tools",
+        "Office",
+        "Gently Used"
+      ],
+      "image": [""],
+      "claimed": false
+    },
+    {
+      "id": "printer",
+      "title": "Printer/Scanner",
+      "content": "<p>Brother Printer Work Smart MFCJ875DW Wireless Color Inkjet All-In-One Printer with Scanner, Copier and Fax</p><p><a target=\"_blank\" href=\"https://www.amazon.com/Brother-Printer-MFCJ875DW-Wireless-Scanner/dp/B00E48UV6M\">Buy used (very Good) on Amazon</a>: $199.99 (or on ebay for $90 (+$47 in shipping)</p><p>Asking: $80 [includes: user guide and driver installation CD, new 20 pack of 4x6 photo paper and extra ink cartridges: Magenta (2), Cyan (2), Yellow (2), Black (3)]</p>",
+      "notes": "",
+      "tags": [
+        "Tools",
+        "Office",
+        "Gently Used"
+      ],
+      "image": [""],
+      "claimed": false
+    },
+    {
+      "id": "lamps-square",
+      "title": "Square Table Lamps",
+      "content": "<p></p>",
+      "notes": "",
+      "tags": [
+        "Lighting",
+        "Well Loved"
+      ],
+      "image": [""],
+      "claimed": false
+    },
+    {
+      "id": "chair-green",
+      "title": "Chair - Green",
+      "content": "<p></p>",
+      "notes": "",
+      "tags": [
+        "Furniture",
+        "Livingroom",
+        "Well Loved"
+      ],
+      "image": [""],
+      "claimed": false
+    },
+    {
+      "id": "toaster-oven",
+      "title": "Toaster Oven",
+      "content": "<p></p>",
+      "notes": "",
+      "tags": [
+        "Tools",
+        "Kitchen",
+        "Well Loved"
+      ],
+      "image": [""],
+      "claimed": false
+    },
+    {
+      "id": "Dining Chairs",
+      "title": "Chairs - Dining",
+      "content": "<p></p>",
+      "notes": "",
+      "tags": [
+        "Furniture",
+        "Kitchen",
+        "Well Loved"
+      ],
+      "image": [""],
+      "claimed": false
+    },
+    {
+      "id": "table-dining",
+      "title": "Table - Dinning",
+      "content": "<p></p>",
+      "notes": "",
+      "tags": [
+        "Furniture",
+        "Kitchen",
+        "Well Loved"
+      ],
+      "image": [""],
+      "claimed": false
+    },
+    {
+      "id": "speakers",
+      "title": "Speakers",
+      "content": "<p></p>",
+      "notes": "",
+      "tags": [
+        "Livingroom",
+        "Gently Used"
+      ],
+      "image": [""],
+      "claimed": false
+    },
+    {
+      "id": "playstation2",
+      "title": "Playstation 2",
+      "content": "<p></p>",
+      "notes": "",
+      "tags": [
+        "Livingroom",
+        "Gently Used"
+      ],
+      "image": [""],
+      "claimed": false
+    },
+    {
+      "id": "lamp-floor",
+      "title": "Lamp - Floor",
+      "content": "<p></p>",
+      "notes": "",
+      "tags": [
+        "Lighting",
+        "Livingroom",
+        "Well Loved"
+      ],
+      "image": [""],
+      "claimed": false
+    },
+    {
+      "id": "mixer",
+      "title": "Mixer",
+      "content": "<p></p>",
+      "notes": "",
+      "tags": [
+        "Tools",
+        "Kitchen",
+        "Well Loved"
+      ],
+      "image": [""],
+      "claimed": false
+    },
+    {
+      "id": "rice-cooker",
+      "title": "Rice Cooker",
+      "content": "<p></p>",
+      "notes": "",
+      "tags": [
+        "Tools",
+        "Kitchen",
+        "Well Loved"
+      ],
+      "image": [""],
+      "claimed": false
+    },
+    {
+      "id": "popcorn",
+      "title": "Air popper",
+      "content": "<p></p>",
+      "notes": "",
+      "tags": [
+        "Tools",
+        "Kitchen",
+        "Well Loved"
+      ],
+      "image": [""],
+      "claimed": false
+    },
+    {
+      "id": "crockpots",
+      "title": "Crock Pots",
+      "content": "<p></p>",
+      "notes": "",
+      "tags": [
+        "Tools",
+        "Kitchen",
+        "Gently Used"
+      ],
+      "image": [""],
+      "claimed": false
+    },
+    {
+      "id": "washer-dryer",
+      "title": "Washer/Dryer",
+      "content": "<p></p>",
+      "notes": "",
+      "tags": [
+        "Tools",
+        "Well Loved"
+      ],
+      "image": [""],
+      "claimed": false
+    },
+    {
+      "id": "drum",
+      "title": "Drum",
+      "content": "<p></p>",
+      "notes": "",
+      "tags": [
+        "Gently Used"
+      ],
+      "image": [""],
+      "claimed": false
+    },
+    {
+      "id": "speaker-dock",
+      "title": "Docking Speaker",
+      "content": "<p></p>",
+      "notes": "",
+      "tags": [
+        "Like New"
+      ],
+      "image": [""],
       "claimed": false
     }
   ]
